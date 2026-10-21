@@ -7,7 +7,10 @@
 - 最低系统：Android 6.0（API 23），targetSdk 35
 - 默认站点：`https://maccms.sanxininfo.cn`（可在设置页修改）
 - 已构建 APK：仓库根目录 `maccms-mobile-debug.apk`（随仓库跟踪，可直接下载安装）
-- 代码仓库：`git@gitee.com:shuizhuyu/maccms-android-apk.git`（默认分支 `master`）
+- 代码仓库（默认分支均为 `master`）：
+  - Gitee（远程名 `origin`）：`git@gitee.com:shuizhuyu/maccms-android-apk.git`
+  - GitHub（远程名 `github`）：`https://github.com/wtf-church/maccms-android-apk.git`
+- 一键推送到两个仓库：`git pushall`（依次推送 `origin` 与 `github`）
 
 ---
 

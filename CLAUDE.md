@@ -9,7 +9,9 @@
 - **包名**：`com.maccms.mobile`。
 - **技术栈**：Kotlin 2.2.10 + Jetpack Compose（Material 3）+ Media3 ExoPlayer 1.11.0 + Retrofit + Coil。
 - **默认数据源**：`https://maccms.sanxininfo.cn`，接口 `api.php/provide/vod`，可在设置页修改。
-- **远程仓库**：`git@gitee.com:shuizhuyu/maccms-android-apk.git`，默认分支 `master`。
+- **远程仓库**（默认分支均为 `master`）：
+  - `origin` → Gitee `git@gitee.com:shuizhuyu/maccms-android-apk.git`
+  - `github` → GitHub `https://github.com/wtf-church/maccms-android-apk.git`
 - **最低系统**：Android 6.0（minSdk 23）；compileSdk 36 / targetSdk 35。
 
 ## 2. 常用命令
@@ -131,7 +133,12 @@ app/src/main/java/com/maccms/mobile/
   ```bash
   cp app/build/outputs/apk/debug/app-debug.apk maccms-mobile-debug.apk
   ```
-- 推送：`git push origin master`。
+- 推送：
+  ```bash
+  git push origin master   # Gitee
+  git push github master   # GitHub
+  git pushall              # 两个仓库一起推（Git 别名）
+  ```
 - 远程仓库名虽为 `*-apk`，但仓库同时包含完整源码、构建脚本、截图与 APK。
 - 提交信息建议中文，结尾注明必要协作信息；不要提交密钥、token、服务器密码。
 
