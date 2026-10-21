@@ -1,0 +1,30 @@
+# Android / Gradle
+.gradle/
+build/
+app/build/
+local.properties
+*.iml
+.idea/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# 产物（根目录的发布快照 APK 特意跟踪）
+*.apk
+!maccms-mobile-debug.apk
+*.aab
+*.jks
+*.keystore
+!keystore/debug.keystore
+*.log
+
+# 本地验证截图
+screenshot_*.png
+final_*.png
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# Kotlin build cache
+.kotlin/
