@@ -11,6 +11,7 @@
   - Gitee（远程名 `origin`）：`git@gitee.com:shuizhuyu/maccms-android-apk.git`
   - GitHub（远程名 `github`）：`https://github.com/wtf-church/maccms-android-apk.git`
 - 一键推送到两个仓库：`git pushall`（依次推送 `origin` 与 `github`）
+- 开源协议：[MIT License](LICENSE) · [免责声明](DISCLAIMER.md)
 
 ---
 
@@ -228,6 +229,15 @@ app/src/main/java/com/maccms/mobile/
 
 ---
 
-## 许可证
+## 开源协议与声明
 
-客户端代码仅用于个人学习与自建 maccms 站点访问。影片数据、海报与播放地址版权归原站点及权利人所有。
+本项目代码采用 [MIT License](LICENSE) 开源，可自由使用、修改、分发（包括商业使用），但需保留版权与许可声明。
+
+完整声明见 [DISCLAIMER.md](DISCLAIMER.md)。以下为核心声明，**不构成对 MIT 许可证条款的修改**：
+
+> - 本项目仅供学习与技术交流，**禁止用于未授权影视资源的聚合、传播或商业运营**。
+> - **下游打包售卖、接入盗版源等行为由行为人自行负责，与作者无关。**
+> - 本项目不提供、不存储、不分发任何影视资源；影片数据、海报与播放地址均来自用户自行配置的 maccms 站点或第三方，版权归原权利人所有。
+> - 使用本项目即表示你已理解并同意自行承担由此产生的法律责任，请在遵守当地法律法规的前提下使用。
+
+本项目按“现状”提供，不提供任何明示或暗示的担保。

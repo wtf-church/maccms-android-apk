@@ -128,6 +128,7 @@ app/src/main/java/com/maccms/mobile/
 
 ## 6. Git 与交付流程
 
+- **开源协议**：MIT（[LICENSE](LICENSE)）；免责声明见 [DISCLAIMER.md](DISCLAIMER.md)。分发或修改时保留版权与许可声明，不要移除免责声明。
 - 提交前检查 `git status`，以下内容不应入库：`.gradle/`、`.kotlin/`、`app/build/`、`local.properties`、IDE 文件、临时截图/日志。
 - **根目录 `maccms-mobile-debug.apk` 是特意跟踪的构建快照**；重新构建后请同步复制：
   ```bash
